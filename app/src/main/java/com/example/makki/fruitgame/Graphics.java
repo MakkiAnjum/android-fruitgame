@@ -9,8 +9,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
 
-// Makki Anjum
-
 public class Graphics extends View {
 
     int width = 1000;

@@ -1,5 +1,4 @@
 package com.example.makki.fruitgame;
-// Makki Anjum
 
 public class BasketThread extends Thread {
     int x, y, dx, dy, width;
