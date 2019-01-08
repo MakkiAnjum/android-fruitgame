@@ -9,6 +9,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
 
+// Makki Anjum
+
 public class Graphics extends View {
 
     int width = 1000;
@@ -54,19 +56,17 @@ public class Graphics extends View {
         if (cart.x < LeftArea) {
             if (banana.y >= cart.y) {
                 banana.y = -100;
-                Toast.makeText(null, "Banana is captured", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Banana is captured", Toast.LENGTH_SHORT).show();
             }
-        }
-        else if (cart.x > RightArea) {
+        } else if (cart.x > RightArea) {
             if (orange.y >= cart.y) {
                 orange.y = -100;
-                Toast.makeText(null, "Orange is captured", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Orange is captured", Toast.LENGTH_SHORT).show();
             }
-        }
-        else{
+        } else {
             if (apple.y >= cart.y) {
                 apple.y = -100;
-                Toast.makeText(null, "Apple is captured", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Apple is captured", Toast.LENGTH_SHORT).show();
             }
         }
 
